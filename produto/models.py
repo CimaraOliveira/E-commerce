@@ -3,6 +3,7 @@ from PIL import Image
 import os
 from django.conf import settings
 from django.utils.text import slugify
+from Ecommerce.utils import utils
 
 class Produto(models.Model):
     nome = models.CharField(max_length=255)
